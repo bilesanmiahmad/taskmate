@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+.active{
+    font-size: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+    height: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.box{
+    max-width: 200px;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+p{
+    font-size: 18px;
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+button.add{
+    background-color: #18978F;
+}
+
+button.sub{
+    background-color: #EB4747;
+}
+
+h1{
+    font-size: 28px;
+    text-align: center;
+    margin: 20px;
+}
+
+ul{
+    max-width: 600px;
+    margin: 50px, auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 2px 0px;
+}
+
+li{
+    font: 16px;
+    list-style: none;
+    margin: 20px 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li.completed{
+    box-shadow: rgba(197, 255, 156, 0.16) 0px 1px 4px;
+}
+
+li.incomplete{
+    box-shadow: rgba(255, 161, 145, 0.16) 0px 1px 4px;
+}
+
+button.delete{
+    border: 0px;
+    border-radius: 5px;
+    background-color: #E64848;
+    color: #FFFFFF;
 }
